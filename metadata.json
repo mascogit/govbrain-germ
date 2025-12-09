@@ -1,0 +1,5 @@
+{
+  "name": "GovBrain–GERM",
+  "description": "Advanced biosecurity and epidemiological analysis dashboard powered by Gemini. Detect outbreaks, simulate scenarios, and generate briefings from multimodal data.",
+  "requestFramePermissions": []
+}
