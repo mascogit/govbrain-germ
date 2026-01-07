@@ -1,13 +1,16 @@
-// services/geminiService.ts (public-safe)
-// Core LLM prompt + orchestration logic intentionally omitted for IP + safety.
+// services/geminiService.ts
 
 import { TaskType, AnalysisResponse } from "../types";
 
+/**
+ * Public-safe stub for GovBrain analysis.
+ * Core LLM prompting and orchestration logic is maintained privately.
+ */
 export async function runAnalysis(
   _taskType: TaskType,
   _input: unknown
 ): Promise<AnalysisResponse> {
   throw new Error(
-    "GovBrain core LLM logic is not included in this public repository."
+    "GovBrain core LLM logic is intentionally excluded from the public repository for IP protection and responsible-use considerations."
   );
 }
