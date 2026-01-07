@@ -62,7 +62,19 @@ The demo illustrates the end-to-end flow from raw inputs to structured decision 
 - Scenario framing and qualitative risk assessment  
 - Decision-support design under uncertainty  
 
-*(This repository focuses on the conceptual and applied AI design rather than production deployment.)*
+*(The repository emphasizes applied design and governance-aware AI concepts rather than exposing full production logic.)*
+
+---
+
+## Note on IP & Responsible Deployment
+
+This repository intentionally focuses on the **architecture, applied AI design, and decision-support framing** of GovBrain–GERM.
+
+The full LLM system prompt, orchestration logic, and governance escalation rules are **not included in the public codebase** for:
+- intellectual property protection, and  
+- responsible-use considerations in high-stakes governance and public health contexts.
+
+A **public-safe stub** is provided in place of the full LLM service to preserve clarity around system structure and interfaces, while preventing misuse or misinterpretation of the prototype as a deployable production system.
 
 ---
 
